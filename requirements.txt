@@ -12,7 +12,6 @@ groq
 langchain_groq
 dia
 playsound
-#accelerate
 #faiss-gpu
 
 #For automat-server
