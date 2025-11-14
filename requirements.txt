@@ -11,9 +11,9 @@ numpy
 groq
 langchain_groq
 dia
+playsound
 #accelerate
 #faiss-gpu
-#playsound
 
 #For automat-server
 fastapi 
