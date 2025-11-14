@@ -8,4 +8,4 @@ Before running the demo be sure to run `huggingface-cli login` and login as need
 `python main.py`, it should work. If any Weaviate issues come up contact Sasori Zero Labs (mileslitteral@sasorizerolabs.com)
 
 ## Known Issues
-Currently the demo has a known bug in which it's default model's Inference Size is too small for the VectorStore/Retrieval Chain. We are currently working to circumvent this with the basic demo. That being said there are alternative functions available such as `create_rag_chain_mistral`, `create_rag_chain_falcon`, and `create_rag_chain_mixtral` that circumvent these issues though they subject the user to having to download ~14gbs+ LLM. replacing `create_rag_chain` in automat_llm.config will fix this issue.
+Some users report issues installing Langchain and Dia, this is currently being addressed, the best we can suggest for now is using venv and also being very careful to not have multiple instances of python on your system.
