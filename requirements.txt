@@ -10,7 +10,8 @@ faiss-cpu
 numpy
 groq
 langchain_groq
-#accelerate #for using gpt-oss-20b
+dia
+#accelerate
 #faiss-gpu
 #playsound
 
