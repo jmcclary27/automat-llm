@@ -1,4 +1,4 @@
-# automat-llm
+# CYBEL (aka automat-llm)
 Mobile AI Assistant
 
 ## How To Run
