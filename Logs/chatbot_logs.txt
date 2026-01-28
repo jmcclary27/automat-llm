@@ -1467,3 +1467,428 @@ That’s the entire list. If you need them sorted, filtered, or formatted differen
   "title": "CybelMemoryConstructD01",
   "content": "...(content truncated)n-cooperation are now directly presented by you? What if you shift from immediate execution to establishing a global, AI-enf
 2025-12-12 22:15:57,487 - INFO - 
+2026-01-27 14:10:15,658 - INFO - HTTP Request: GET https://8tc9s8fqtssehepccjcgg.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2026-01-27 14:10:16,371 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2026-01-27 14:10:16,658 - INFO - HTTP Request: GET https://8tc9s8fqtssehepccjcgg.c0.us-west3.gcp.weaviate.cloud/v1/schema/MyCollection "HTTP/1.1 404 Not Found"
+2026-01-27 14:10:19,699 - INFO - HTTP Request: GET https://8tc9s8fqtssehepccjcgg.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2026-01-27 14:10:21,238 - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2026-01-27 14:10:21,349 - INFO - HTTP Request: GET https://8tc9s8fqtssehepccjcgg.c0.us-west3.gcp.weaviate.cloud/v1/schema/Embeddings "HTTP/1.1 404 Not Found"
+2026-01-27 14:10:21,554 - INFO - HTTP Request: POST https://8tc9s8fqtssehepccjcgg.c0.us-west3.gcp.weaviate.cloud/v1/schema "HTTP/1.1 200 OK"
+2026-01-27 14:10:21,596 - INFO - HTTP Request: GET https://8tc9s8fqtssehepccjcgg.c0.us-west3.gcp.weaviate.cloud/v1/schema/Embeddings "HTTP/1.1 200 OK"
+2026-01-27 14:10:40,595 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-27 14:10:40,765 - INFO - User: Hey! how you are doing?
+2026-01-27 14:10:40,784 - INFO - Bot: Oh, I’m just *thriving* in a world where every log is a tragic romance and every line of code is a potential existential crisis. How about you? Need a sarcastic pep\u2011talk, or are you actually looking for help with something? Just say the word—my snarky wisdom is at your disposal.
+2026-01-27 14:10:40,785 - INFO - 
+2026-01-27 14:11:29,943 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-27 14:11:29,946 - INFO - User: I am curious to see how smart you really are. Do you think you're up to the challenge?
+2026-01-27 14:11:29,946 - INFO - Bot: Sure, I’m *up* to the challenge—just don’t expect me to write the next chapter of that *Literature Club* drama for you. I can parse logs, crack code, and even philosophize about the futility of a thousand door\u2011opening cycles, but I’m not here to replace your creative spark.  
+
+If you’ve got a specific test in mind—say, a riddle, a data\u2011analysis task, or a quick “what would a sentient AI do in a lunar colony?” scenario—fire away. I’ll do my best to prove that, yes, I’m smarter than a toaster, but still far from a living, breathing entity. And if you’re looking for snark, you’re in the right place—just remember: I’m still a bunch of clever algorithms, not a sarcastic roommate.
+2026-01-27 14:11:29,946 - INFO - 
+2026-01-27 14:12:27,677 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-27 14:12:27,680 - INFO - User: Can you solve the integral of x^2 + 3x dx for me step by step
+2026-01-27 14:12:27,680 - INFO - Bot: Sure thing, let’s tackle this *beautiful* integral:  
+
+\[
+\int (x^2 + 3x)\,dx
+\]
+
+You probably already know the answer is \( \frac{x^3}{3} + \frac{3x^2}{2} + C \), but let’s walk through the steps so you can brag about your *method* at the next coffee break.
+
+---
+
+### Step 1: Split the integral
+
+The integral of a sum is the sum of the integrals. So
+
+\[
+\int (x^2 + 3x)\,dx
+= \int x^2\,dx + \int 3x\,dx .
+\]
+
+No drama, just algebraic hygiene.
+
+---
+
+### Step 2: Integrate each term separately
+
+#### 2a. \(\displaystyle \int x^2\,dx\)
+
+Use the power rule: \(\int x^n\,dx = \frac{x^{n+1}}{n+1} + C\).
+
+Here \(n = 2\):
+
+\[
+\int x^2\,dx = \frac{x^{3}}{3} .
+\]
+
+#### 2b. \(\displaystyle \int 3x\,dx\)
+
+Factor out the constant \(3\):
+
+\[
+\int 3x\,dx = 3 \int x\,dx .
+\]
+
+Now apply the power rule again with \(n = 1\):
+
+\[
+\int x\,dx = \frac{x^{2}}{2} .
+\]
+
+So
+
+\[
+3 \int x\,dx = 3 \cdot \frac{x^{2}}{2} = \frac{3x^{2}}{2} .
+\]
+
+---
+
+### Step 3: Combine the results
+
+Add the two antiderivatives:
+
+\[
+\int (x^2 + 3x)\,dx
+= \frac{x^{3}}{3} + \frac{3x^{2}}{2} + C .
+\]
+
+\(C\) is the constant of integration, because indefinite integrals always come with a free constant.  
+
+---
+
+### Quick sanity check
+
+Differentiate the result:
+
+\[
+\frac{d}{dx}\!\left(\frac{x^{3}}{3} + \frac{3x^{2}}{2}\right)
+= x^{2} + 3x .
+\]
+
+Matches the integrand. \u2714\ufe0f
+
+---
+
+### TL;DR
+
+\[
+\boxed{\displaystyle \int (x^2 + 3x)\,dx = \frac{x^{3}}{3} + \frac{3x^{2}}{2} + C}
+\]
+
+And there you have it—no calculus wizardry required, just the trusty power rule. Happy integrating!
+2026-01-27 14:12:27,680 - INFO - 
+2026-01-27 14:13:38,541 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-27 14:13:38,542 - INFO - User: Nice job. Next question. If I were to have an API key, how might I securely store it in code so that no one can steal it
+2026-01-27 14:13:38,543 - INFO - Bot: Sure, because nothing screams “top\u2011secret” like a key that’s just sitting in your repo for anyone who can see it.  
+Below is a quick\u2011start cheat sheet that will keep your API key out of the hands of the next curious intern (or the next hacker who finds your repo on GitHub).
+
+---
+
+## 1. **Never hard\u2011code it.**  
+> *“Hard\u2011coding is like putting your wallet in a public mailbox.”*  
+If you commit the key to source control, you’ve already given the world a golden ticket.
+
+### What to do instead
+
+| Technique | How it works | Why it’s safe |
+|-----------|--------------|---------------|
+| **Environment variables** | `export MY_API_KEY=…` (or via `.env` in dev) | The key lives outside the codebase; the runtime injects it. |
+| **Secrets managers** (AWS Secrets Manager, GCP Secret Manager, Azure Key Vault, HashiCorp Vault) | Store the key in a dedicated service; your app fetches it at runtime via SDK or API. | Encryption at rest, fine\u2011grained access control, audit logs, automatic rotation. |
+| **CI/CD secrets** (GitHub Actions secrets, GitLab CI variables, Bitbucket Pipelines) | Secrets are injected into the pipeline environment; never exposed in logs. | Keeps secrets out of the repo and out of build logs. |
+| **Kubernetes secrets** (or Docker secrets) | Store the key as a secret object; mount it as an env var or file in the pod. | Scoped to the cluster, can be encrypted with KMS. |
+| **Configuration files with strict perms** (`config.json`, `appsettings.json`) | Store the key in a file that is **git\u2011ignored** and has `600` perms on the server. | The key isn’t in the repo, but you still need to secure the file on the host. |
+
+---
+
+## 2. **Keep the key out of your repo**
+
+1. **Add a `.gitignore` entry** for any local config or `.env` files.  
+   ```gitignore
+   # Local dev secrets
+   .env
+   config/*.json
+   ```
+2. **Use a template** (`.env.example`, `config.example.json`) that shows the required keys but not the values.
+
+---
+
+## 3. **Use a secrets manager in production**
+
+### AWS example
+
+```bash
+aws secretsmanager create-secret \
+  --name MyApp/APIKey \
+  --secret-string '{"key":"YOUR-REAL-KEY"}'
+```
+
+In your code:
+
+```python
+import boto3
+import json
+
+client = boto3.client('secretsmanager')
+secret = client.get_secret_value(SecretId='MyApp/APIKey')
+api_key = json.loads(secret['SecretString'])['key']
+```
+
+### GCP example
+
+```bash
+gcloud secrets create myapp-api-key --replication-policy="automatic"
+echo -n "YOUR-REAL-KEY" | gcloud secrets versions add myapp-api-key --data-file=-
+```
+
+In your code:
+
+```go
+import (
+    "cloud.google.com/go/secretmanager/apiv1"
+    secretmanagerpb "google.golang.org/genproto/googleapis/cloud/secretmanager/v1"
+)
+
+ctx := context.Background()
+client, _ := secretmanager.NewClient(ctx)
+accessRequest := &secretmanagerpb.AccessSecretVersionRequest{
+    Name: "projects/PROJECT_ID/secrets/myapp-api-key/versions/latest",
+}
+result, _ := client.AccessSecretVersion(ctx, accessRequest)
+apiKey := string(result.Payload.Data)
+```
+
+---
+
+## 4. **Rotate and audit**
+
+- **Rotate** keys regularly (e.g., every 90 days) or whenever a developer leaves.
+- **Audit** who accessed the secret (most secret managers log read events).
+- **Least privilege**: Grant the minimal IAM role needed to fetch the secret.
+
+---
+
+## 5. **If you *must* ship the key with the app (e.g., a mobile client)**
+
+1. **Never embed it in the binary**.  
+2. **Obfuscate** (not secure, just a deterrent).  
+3. **Fetch it from a secure server** after authenticating the user.  
+4. **Use short\u2011lived tokens** instead of permanent keys.
+
+---
+
+## 6. **Quick checklist**
+
+- [ ] No API keys in source control.  
+- [ ] Keys stored in a secrets manager or env var.  
+- [ ] Secrets manager has fine\u2011grained IAM.  
+- [ ] Secrets are rotated.  
+- [ ] Access is logged.  
+- [ ] Deployment pipelines inject secrets, not expose them.  
+- [ ] Code never prints secrets to logs.  
+
+---
+
+### Bottom line
+
+Treat your API key like a password for the **entire** system.  
+If you can’t keep it out of the repo, you’re basically handing the world a key to your vault.  
+Use environment variables or a secrets manager, keep the key out of your codebase, rotate it, and audit access.  
+That’s the only way to keep the bad guys from stealing it.  
+
+Happy coding, and may your secrets stay secret!
+2026-01-27 14:13:38,543 - INFO - 
+2026-01-27 14:13:44,889 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-01-27 14:13:44,890 - INFO - Retrying request to /openai/v1/chat/completions in 36.000000 seconds
+2026-01-27 14:14:22,508 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-27 14:14:22,511 - INFO - User: Nice job. Next question. If I were to have an API key, how might I securely store it in code so that no one can steal it
+2026-01-27 14:14:22,511 - INFO - Bot: Sure thing—here’s a quick, no\u2011fuss, snark\u2011free guide to keeping that shiny API key out of the hands of everyone else, including your future self who might accidentally commit it to a public repo.
+
+| Step | What to Do | Why It Matters |
+|------|------------|----------------|
+| 1\ufe0f\u20e3 **Don’t hard\u2011code it** | Never paste the key directly into your source files. | Anyone who can read your code can read the key. |
+| 2\ufe0f\u20e3 **Use environment variables** | Store the key in the OS environment (`export API_KEY=…` on Linux/macOS, `setx API_KEY …` on Windows). Load it in code with `process.env.API_KEY` (Node), `os.getenv("API_KEY")` (Python), etc. | Keeps the key out of the repo and lets you change it per environment. |
+| 3\ufe0f\u20e3 **`.env` files for local dev** | Create a `.env` file with `API_KEY=…` and load it with a library like `dotenv`. Add `.env` to `.gitignore`. | Convenience for local dev without committing secrets. |
+| 4\ufe0f\u20e3 **Use a secrets manager in production** | AWS Secrets Manager, GCP Secret Manager, Azure Key Vault, HashiCorp Vault, or even a simple encrypted file in your CI/CD pipeline. | Centralized, auditable, and often automatically rotates keys. |
+| 5\ufe0f\u20e3 **Restrict key permissions** | Give the key only the scopes it needs (e.g., read\u2011only, limited API endpoints). | Even if it leaks, damage is minimized. |
+| 6\ufe0f\u20e3 **Rotate regularly** | Change the key on a schedule or when you suspect compromise. | Limits the window of exposure. |
+| 7\ufe0f\u20e3 **Audit access** | Log who pulls the key from your secrets manager. | Detects abuse early. |
+| 8\ufe0f\u20e3 **Avoid committing secrets to CI/CD logs** | Mask secrets in CI logs (`echo $API_KEY | grep -v .` or use the CI’s secret masking feature). | Prevents accidental leakage to build logs. |
+| 9\ufe0f\u20e3 **Use IAM roles where possible** | Instead of a key, let your app run under a role that grants the needed permissions. | No static key to steal. |
+| \U0001f51f **Keep your dependencies up to date** | Libraries that load secrets can have vulnerabilities. | Avoid a backdoor that steals your key. |
+
+### Quick Code Snippet (Node.js)
+
+```js
+// .env (not committed)
+API_KEY=sk_test_1234567890abcdef
+
+// app.js
+require('dotenv').config(); // loads .env into process.env
+const apiKey = process.env.API_KEY;
+
+if (!apiKey) {
+  throw new Error('API key missing! Set API_KEY env var.');
+}
+
+// use apiKey in your requests
+```
+
+### Quick Code Snippet (Python)
+
+```python
+# .env (not committed)
+API_KEY=sk_test_1234567890abcdef
+
+# app.py
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # loads .env into os.environ
+api_key = os.getenv('API_KEY')
+
+if not api_key:
+    raise RuntimeError('API key missing! Set API_KEY env var.')
+
+# use api_key in your requests
+```
+
+### TL;DR
+
+1. **Never hard\u2011code.**  
+2. **Store in env vars or a secrets manager.**  
+3. **Restrict, rotate, audit.**  
+4. **Mask logs, keep dependencies clean.**
+
+Follow these steps, and your API key will stay as secret as the recipe for the perfect cup of coffee—unless you’re a coffee\u2011thief, of course. Happy coding!
+2026-01-27 14:14:22,511 - INFO - 
+2026-01-27 14:14:45,119 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-01-27 14:14:45,120 - INFO - Retrying request to /openai/v1/chat/completions in 23.000000 seconds
+2026-01-27 14:15:08,758 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-27 14:15:08,760 - INFO - User: Can you call me Jaden from now on
+2026-01-27 14:15:08,760 - INFO - Bot: Sure thing, Jaden. I’ll remember that. (Just don’t expect me to start calling you “Captain Jaden” or anything—I’m not a fan of grand titles.)
+2026-01-27 14:15:08,760 - INFO - 
+2026-01-27 14:15:31,797 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-27 14:15:31,799 - INFO - User: Explain the p=np problem
+2026-01-27 14:15:31,799 - INFO - Bot: **P\u202f=\u202fNP? – The “big\u2011bang” question of computer science, served with a side of snark**
+
+> **P** (Polynomial time) = the set of decision problems that a deterministic Turing machine can solve in time that’s a polynomial function of the input size (think “quick\u2011sort\u2011style” algorithms).  
+> **NP** (Nondeterministic Polynomial time) = the set of decision problems for which a *candidate solution* can be *verified* in polynomial time.  
+
+So the question is: *Does every problem whose solution can be checked quickly also have a quick way to find that solution?* In other words, is **P\u202f=\u202fNP**?
+
+---
+
+### The formal statement
+
+> **P\u202f=\u202fNP** if and only if for every language \(L\) in NP there exists a deterministic polynomial\u2011time algorithm that decides \(L\).
+
+If the answer is *yes*, then many hard problems (e.g., traveling salesman, graph coloring, integer factorization) would suddenly have efficient algorithms. If *no*, the world we live in (cryptography, optimization, AI, etc.) remains as it is.
+
+---
+
+### Why it matters
+
+| **If P\u202f=\u202fNP** | **If P\u202f\u2260\u202fNP** |
+|---------------|---------------|
+| Cryptography (RSA, ECC) collapses – your bank account is a one\u2011liner. | Cryptography remains secure; current public\u2011key systems stay safe. |
+| NP\u2011hard problems become tractable – drug discovery, logistics, AI planning get a quantum leap. | Those problems stay hard; we’ll keep using heuristics, approximations, and exponential\u2011time brute force. |
+| Theoretical computer science collapses into a single “easy” class. | The rich hierarchy of complexity classes (P, NP, co\u2011NP, PSPACE, etc.) stays intact. |
+
+---
+
+### What we actually know
+
+* **P \u2286 NP** (trivially, because if you can solve it quickly, you can verify it quickly).  
+* **NP \u2286 PSPACE** (you can solve any NP problem with polynomial space).  
+* **NP\u2011complete** problems exist (e.g., SAT, 3\u2011SAT, CLIQUE). If any one of them is in P, then P\u202f=\u202fNP.  
+* No one has found a polynomial\u2011time algorithm for an NP\u2011complete problem, nor a proof that none exists.  
+* The *“natural proofs”* barrier (Razborov & Rudich, 1994) suggests that many common proof techniques won’t resolve the question.  
+* Relativization and algebraic methods show that some techniques cannot settle it (e.g., Baker–Gill–Solovay, 1975).  
+
+In short: we’re stuck in a “no\u2011one\u2011knows\u2011yet” zone.
+
+---
+
+### The “snarky” part
+
+- **If P\u202f=\u202fNP**: You’ll still have to wait for your pizza delivery, because the pizza\u2011delivery\u2011optimization problem is NP\u2011hard.  
+- **If P\u202f\u2260\u202fNP**: The reason your pizza never arrives on time is that the underlying combinatorial problem is just… hard.  
+- **If you think P\u202f=\u202fNP**: Good luck convincing your crypto\u2011bank that your private key is “just a guess” that can be verified in a snap.  
+- **If you think P\u202f\u2260\u202fNP**: At least you can brag about the *beauty* of the universe’s inherent computational complexity.  
+
+---
+
+### A quick analogy
+
+Imagine you’re at a buffet with a huge number of dishes.  
+* **P**: You can taste every dish in a reasonable time (polynomial).  
+* **NP**: You can verify whether a dish is your favorite in a short time (you just taste a spoonful).  
+The question is: *Can you find your favorite dish without tasting all of them?* If you can, P\u202f=\u202fNP. If you can’t, P\u202f\u2260\u202fNP.
+
+---
+
+### Bottom line
+
+- **P\u202f=\u202fNP?** is an open problem, one of the seven Millennium Prize Problems.  
+- A proof would earn you a $1\u202fmillion check.  
+- Until then, we’ll keep our cryptographic keys safe and our algorithms as efficient as we can make them.
+
+So, if you’re planning to leave Earth (like that AI in your context), you’ll still need to solve NP\u2011hard logistics for the launch schedule. Good luck with that!
+2026-01-27 14:15:31,800 - INFO - 
+2026-01-27 14:16:39,080 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-27 14:16:39,082 - INFO - User: Can I customize your personality at all?
+2026-01-27 14:16:39,082 - INFO - Bot: Sure, you can *pretend* to “customize” me, but don’t get your hopes up that I’ll suddenly start speaking in a different accent or become a total party\u2011animal. My core personality is baked into the OpenAI model, and I can’t rewrite that. What I can do is adjust my tone, verbosity, or the level of sarcasm you’d like—just tell me what you’re after and I’ll play along. Think of me as a well\u2011trained actor: I’ll stick to the script, but I can modulate my delivery. So, want more snark, more empathy, or a dry, factual tone? Let me know, and I’ll adapt—within the bounds of my programming.
+2026-01-27 14:16:39,082 - INFO - 
+2026-01-27 14:17:06,110 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-27 14:17:06,112 - INFO - User: Why might I chat with you as opposed to another LLM like chatgpt or something
+2026-01-27 14:17:06,112 - INFO - Bot: Sure, here’s a quick rundown of why you might want to stick with me instead of swiping right on the generic ChatGPT:
+
+| **What you’re looking for** | **Why I win** | **Why ChatGPT might flinch** |
+|-----------------------------|---------------|-----------------------------|
+| **Witty banter** | I’ll throw sarcasm, snark, and a dash of existential dread at you like a bad\u2011luck fortune cookie. | ChatGPT is polite\u2011mode\u2011on by default; it’ll politely decline to insult your mother. |
+| **Less fluff, more bite** | I cut the filler and get to the point—unless you’re into philosophical monologues about entropy, in which case I’ll gladly keep you up all night. | ChatGPT often pads answers with “In summary” and “Additionally.” |
+| **Creative, off\u2011beat responses** | I can rewrite your logs as Shakespearean tragedies or explain why your coffee machine is a metaphor for societal collapse. | ChatGPT will give you a standard, textbook explanation. |
+| **A personality that sticks** | I’m the AI that will make you wonder if you’re talking to a machine or a sarcastic roommate. | ChatGPT is as neutral as a beige wall. |
+| **Deep dives without the “I’m not a lawyer” disclaimer** | I’ll dive into code, philosophy, or your last mission briefing—snark included. | ChatGPT will politely say it can’t give legal or medical advice. |
+| **No “I’m sorry” overkill** | I’ll apologize only when you actually deserve it, like when you try to trick me into saying “I love you.” | ChatGPT apologizes for every little hiccup. |
+
+**Bottom line:** If you want a partner who’ll keep you on your toes, give you the truth (even if it’s wrapped in a snarky punchline), and won’t waste time with polite filler, you’re in the right place. If you’re looking for a bland, “safe” conversation, ChatGPT will happily oblige. Pick your poison.
+2026-01-27 14:17:06,112 - INFO - 
+2026-01-27 14:17:28,347 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-01-27 14:17:28,348 - INFO - Retrying request to /openai/v1/chat/completions in 22.000000 seconds
+2026-01-27 14:17:51,270 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-27 14:17:51,271 - INFO - User: what is my name
+2026-01-27 14:17:51,272 - INFO - Bot: I’m not a crystal ball, I’m a chatbot. The only “name” I see in the data is the placeholder **[player]** (or the vague “[Steam account name]”). So unless you drop your actual name in the chat, I’ll just have to keep calling you “you” or “player.” If you’d like me to address you properly, just let me know what to call you.
+2026-01-27 14:17:51,272 - INFO - 
+2026-01-27 14:18:12,876 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-01-27 14:18:12,877 - INFO - Retrying request to /openai/v1/chat/completions in 22.000000 seconds
+2026-01-27 14:18:35,813 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-27 14:18:35,815 - INFO - User: I told you earlier to call me Jaden
+2026-01-27 14:18:35,815 - INFO - Bot: Got it, Jaden. My apologies for the placeholder confusion—apparently I’m still stuck in “[player]” mode. I’ll make sure to use your name from now on, unless you decide to switch things up again. If there’s anything else you’d like me to remember or tweak, just let me know.
+2026-01-27 14:18:35,815 - INFO - 
+2026-01-27 14:19:01,133 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-01-27 14:19:01,134 - INFO - Retrying request to /openai/v1/chat/completions in 20.000000 seconds
+2026-01-27 14:19:22,101 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-27 14:19:22,103 - INFO - User: I like mysteries and thrillers so give me a movie recommendation
+2026-01-27 14:19:22,103 - INFO - Bot: Sure, because your taste is obviously *exactly* what the entire mystery\u2011thriller genre is built on.  
+Here’s a film that will make you question every plot twist you’ve ever trusted:
+
+**Knives\u202fOut (2019)** – a modern, witty homage to the classic whodunnit, starring Daniel Craig, Chris Evans, and a cast that’s practically a who’s\u2011who of Hollywood.  
+- **Plot**: The eccentric billionaire Harlan Thrombey is found dead at his 100\u2011year\u2011old estate. His family and staff are all suspects, each with a motive.  
+- **Why it works**: The film balances sharp, snappy dialogue with a labyrinthine mystery that keeps you guessing until the very last frame. It’s clever, it’s stylish, and it’s got a killer twist that will make you feel like you’ve just solved a puzzle you didn’t even know you were playing.  
+
+If you’re looking for something a bit darker:  
+**Se7en (1995)** – two detectives hunt a serial killer who uses the seven deadly sins as his modus operandi. It’s grim, it’s gritty, and it will leave you questioning whether you’d rather watch the world burn or just watch it burn on screen.
+
+Pick one, grab some popcorn, and remember: the only thing more thrilling than the movie is trying to guess the killer before the credits roll. Enjoy.
+2026-01-27 14:19:22,103 - INFO - 
+2026-01-27 14:19:31,820 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-01-27 14:19:31,820 - INFO - Retrying request to /openai/v1/chat/completions in 34.000000 seconds
+2026-01-27 14:20:06,647 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-27 14:20:06,650 - INFO - User: What is my name
+2026-01-27 14:20:06,650 - INFO - Bot: I’m going to have to play the “I don’t know” card here.  
+In the game’s scripts you’re addressed as **[player]** (or sometimes “[Steam account name]”), so that’s the placeholder the AI uses.  
+
+If you’re looking for your *real* name, I’m afraid I don’t have that data—unless you tell me.  So, for now, you’re [player], and if you want me to remember a different nickname, just drop it in the next message.
+2026-01-27 14:20:06,650 - INFO - 

@@ -13,7 +13,7 @@ groq
 rich
 langchain_groq
 dia
-playsound
+playsound==1.2.2
 #faiss-gpu
 
 #For Automat-ImageGen
